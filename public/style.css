@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./cosmic-timetraveler-LgrGHYZzBSk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#room-name-form {
+  margin-top: 10%;
+  background-color: white;
+  margin: auto;
+  width: auto;
+  border: 3px solid green;
+  padding: 35px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px black;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.participant-window {
+  background-color: white;
+  border: 3px solid blue;
+  margin: 5px;
+  padding: 0;
+  width: min-content;
+  height: min-content;
+  border-radius: 18px;
+  box-shadow: 5px 10px 8px black;
+}
+
+video {
+  display: block;
+  border-radius: 15px;
+}
+
+#video-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  #room-name-form {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+}
